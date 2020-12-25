@@ -62,6 +62,7 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Matiere.cs" />
     <Compile Include="Partie.cs" />
+    <Compile Include="Question.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
