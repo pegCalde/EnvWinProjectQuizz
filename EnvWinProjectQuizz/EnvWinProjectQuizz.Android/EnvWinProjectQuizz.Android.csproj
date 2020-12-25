@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Eleve.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Matiere.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
