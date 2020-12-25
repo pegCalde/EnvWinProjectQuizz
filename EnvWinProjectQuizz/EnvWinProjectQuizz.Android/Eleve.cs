@@ -11,7 +11,20 @@ using System.Text;
 
 namespace EnvWinProjectQuizz.Droid
 {
-    class Class1
+    class Eleve
     {
+        String nom;
+        int note;
+
+        public Eleve(String p_nom, int p_note)
+        {
+            this.nom = p_nom;
+            this.note = p_note;
+        }
+
+        public String toString()
+        {
+            return "L'élève " + this.nom + " à reçu la note de " + this.note;
+        }
     }
 }
