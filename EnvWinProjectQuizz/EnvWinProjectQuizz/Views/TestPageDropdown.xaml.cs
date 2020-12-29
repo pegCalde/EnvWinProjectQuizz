@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using EnvWinProjectQuizz.Model;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,6 +15,11 @@ namespace EnvWinProjectQuizz.Views
         public TestPageDropdown()
         {
             InitializeComponent();
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            int cityId = ((TestDropdown)CityEntry.SelectedItem).IdCity;
         }
     }
 }
