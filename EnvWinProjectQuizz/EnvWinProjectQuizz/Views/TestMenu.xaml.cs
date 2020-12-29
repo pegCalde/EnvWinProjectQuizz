@@ -13,7 +13,8 @@ namespace EnvWinProjectQuizz.Views
     public partial class TestMenu : MasterDetailPage
     {
         /* Nouvel item = Page maitre/detail, ca crée 4 fichiers. 
-           On peut supprimer Detail.xaml, Master.xaml et MenuItem.cs */
+           On peut supprimer Detail.xaml, Master.xaml et MenuItem.cs 
+        tuto menu xamarin => https://www.youtube.com/watch?v=vs4KyqZ6xeI */
 
         List<MenuItems> MenuItems;
 
