@@ -10,8 +10,7 @@ namespace EnvWinProjectQuizz
         public App()
         {
             InitializeComponent();
-
-            MainPage = new TestPageDropdown();
+            //MainPage = new TestMenu();
         }
 
         protected override void OnStart()
