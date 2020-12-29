@@ -16,6 +16,7 @@ namespace EnvWinProjectQuizz.Views
            On peut supprimer Detail.xaml, Master.xaml et MenuItem.cs */
 
         List<MenuItems> MenuItems;
+
         public TestMenu()
         {
             InitializeComponent();
@@ -26,6 +27,10 @@ namespace EnvWinProjectQuizz.Views
             MenuItems.Add(new MenuItems { OptionName = "TestHistoire" });
 
             navigationList.ItemsSource = MenuItems;
+
+            Detail = new NavigationPage(new TestFrancais());
+            Detail = new NavigationPage(new TestMaths());
+            Detail = new NavigationPage(new TestHistoire());
         }
 
         private void Item_Tapped(object sender, ItemTappedEventArgs e)
@@ -36,27 +41,22 @@ namespace EnvWinProjectQuizz.Views
 
                 switch (item.OptionName)
                 {
-                    case "TestPage1Menu":
+                    case "TestFrancais":
                         {
                             Detail = new NavigationPage(new TestFrancais());
                             IsPresented = false;
                         }
                         break;
-                    case "TestPage2Menu":
+                    case "TestMaths":
                         {
                             Detail = new NavigationPage(new TestMaths());
                             IsPresented = false;
                         }
                         break;
-                    case "TestPage3Menu":
+                    case "TestHistoire":
                         {
                             Detail = new NavigationPage(new TestHistoire());
                             IsPresented = false;
-                        }
-                        break;
-                    case "Logout":
-                        {
-
                         }
                         break;
                 }

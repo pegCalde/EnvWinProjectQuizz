@@ -5,7 +5,7 @@
              xmlns:Image="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              xmlns:pages="clr-namespace:EnvWinProjectQuizz.Views">
     <MasterDetailPage.Master>
-        <ContentPage Title="Menu" BackgroundColor="#b9b9b9">
+        <ContentPage Title="Menu" BackgroundColor="Brown">
             <StackLayout Orientation="Vertical" VerticalOptions="Start" Margin="0,20,20,0">
                 <ScrollView VerticalOptions="Start">
                     <StackLayout Orientation="Vertical" BackgroundColor="Coral">
