@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:EnvWinProjectQuizz.ViewModel"
+             x:Class="EnvWinProjectQuizz.Views.TestPageDropdown">
+    
+  <ContentPage.BindingContext>
+      <local:TestDropdownViewModel>
+            
+      </local:TestDropdownViewModel>
+  </ContentPage.BindingContext>
+  <ContentPage.Content>
+      <StackLayout>
+            <Picker ItemDisplayBinding="{Binding NameCity}" x:Name="CityEntry" Title="Select City" ItemsSource="{Binding CityList}" />
+        </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

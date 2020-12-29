@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using EnvWinProjectQuizz.Views;
 
 namespace EnvWinProjectQuizz
 {
@@ -10,7 +11,7 @@ namespace EnvWinProjectQuizz
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new TestPageDropdown();
         }
 
         protected override void OnStart()

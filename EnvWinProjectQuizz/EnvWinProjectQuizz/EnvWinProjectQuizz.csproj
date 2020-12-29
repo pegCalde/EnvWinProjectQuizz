@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Views\Accueil.xaml.cs">
-      <DependentUpon>Accueil.xaml</DependentUpon>
-    </Compile>
+    <EmbeddedResource Update="Views\TestPageDropdown.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
