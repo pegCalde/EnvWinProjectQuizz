@@ -88,11 +88,5 @@
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\EnvWinProjectQuizz\EnvWinProjectQuizz.csproj">
-      <Project>{6A8BBAE4-1D38-434F-A503-8B178C138858}</Project>
-      <Name>EnvWinProjectQuizz</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
