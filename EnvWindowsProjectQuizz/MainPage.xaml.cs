@@ -26,5 +26,10 @@ namespace EnvWindowsProjectQuizz
         {
             this.InitializeComponent();
         }
+
+        private void btnFrancais_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
