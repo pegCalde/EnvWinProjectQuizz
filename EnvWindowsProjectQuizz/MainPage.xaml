@@ -11,9 +11,28 @@
     <Grid Background="#F8F8D9">
         <NavigationView x:Name="NavigationViewControl" IsBackEnabled="False" IsBackButtonVisible="Collapsed" IsSettingsVisible="False" Background="#5B3B23">
             <NavigationView.MenuItems>
-                <NavigationViewItem Content="A" x:Name="A" />
-                <NavigationViewItem Content="B" x:Name="B" />
-                <NavigationViewItem Content="C" x:Name="C" />
+                <NavigationViewItemHeader Content="MENU" Foreground="White" HorizontalAlignment="Center" FontSize="50"/>
+                <NavigationViewItem Content="ACCUEIL" x:Name="Home" />
+                <NavigationViewItemSeparator />
+                <NavigationViewItem Content="FRANCAIS" x:Name="Fr" />
+                <NavigationViewItem Content="Conjugaison" x:Name="Fr_1" />
+                <NavigationViewItem Content="Lexique" x:Name="Fr_2" />
+                <NavigationViewItem Content="Grammaire" x:Name="Fr_3" />
+                <NavigationViewItem Content="Orthographe" x:Name="Fr_4" />
+                <NavigationViewItemSeparator />
+                <NavigationViewItem Content="MATHEMATIQUES" x:Name="Maths" />
+                <NavigationViewItem Content="Géométrie" x:Name="M_1" />
+                <NavigationViewItem Content="Calcul" x:Name="M_2" />
+                <NavigationViewItem Content="Mesures" x:Name="M_3" />
+                <NavigationViewItem Content="Numérotation" x:Name="M_4" />
+                <NavigationViewItemSeparator />
+                <NavigationViewItem Content="HISTOIRE" x:Name="Hist" />
+                <NavigationViewItem Content="Moyen âge" x:Name="H_1" />
+                <NavigationViewItem Content="Temps Modernes" x:Name="H_2" />
+                <NavigationViewItem Content="Epoque Contemporaine" x:Name="H_3" />
+                <NavigationViewItem Content="Appris en CM1" x:Name="H_4" />
+                <NavigationViewItemSeparator />
+                <NavigationViewItem Content="AIDE" x:Name="Help" />
             </NavigationView.MenuItems>
             <NavigationView.Header>
                 <Grid Background="#F8F8D9" Margin="-46,-5,0,-27">
