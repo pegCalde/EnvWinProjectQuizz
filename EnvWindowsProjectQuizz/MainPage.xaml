@@ -11,9 +11,11 @@
     <Grid Background="#F8F8D9">
         <NavigationView x:Name="NavigationViewControl" IsBackEnabled="False" IsBackButtonVisible="Collapsed" IsSettingsVisible="False" Background="#5B3B23">
             <NavigationView.MenuItems>
-                <NavigationViewItem Content="A" x:Name="A" />
-                <NavigationViewItem Content="B" x:Name="B" />
-                <NavigationViewItem Content="C" x:Name="C" />
+                <NavigationViewItem Content="ACCUEIL" x:Name="Home" />
+                <NavigationViewItem Content="FRANCAIS" x:Name="Fr" />
+                <NavigationViewItem Content="MATHEMATIQUES" x:Name="Maths" />
+                <NavigationViewItem Content="HISTOIRE" x:Name="Hist" />
+                <NavigationViewItem Content="AIDE" x:Name="Help" />
             </NavigationView.MenuItems>
             <NavigationView.Header>
                 <Grid Background="#F8F8D9" Margin="-46,-5,0,-27">
