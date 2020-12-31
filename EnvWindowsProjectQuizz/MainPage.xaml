@@ -28,7 +28,7 @@
                         <RowDefinition Height="8*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <Grid Grid.Row="0" Background="White" BorderBrush="Orange" BorderThickness="1" Margin="0,-1,0,0">
+                    <Grid Grid.Row="0" Background="White" BorderBrush="Orange" BorderThickness="1" Margin="0,-11,0,10">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="7*"/>
                             <RowDefinition Height="3*"/>
@@ -37,7 +37,8 @@
                             <ColumnDefinition Width="3*"/>
                             <ColumnDefinition Width="7*"/>
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Row="0" Grid.Column="1" Text="Nom_de_l_élève" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="16,22,0,0"/>
+                        <TextBlock Grid.Row="0" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="80,18,0,0" Grid.ColumnSpan="2" Grid.RowSpan="2"><Run Text="Nom_de_l_élève_1"/><Run/></TextBlock>
+                        <TextBlock Grid.Row="0" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,17,108,0" Grid.Column="1" Grid.RowSpan="2"><Run Text="Nom_de_l_élève_2"/><Run/></TextBlock>
                     </Grid>
                     <Grid Grid.Row="1">
                         <Grid.RowDefinitions>
@@ -59,12 +60,16 @@
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="5*"/>
                             </Grid.ColumnDefinitions>
-                            <Grid Background="#5B3B23" Margin="-43,-230,-43,376" Grid.ColumnSpan="3">
+                            <Grid Background="#5B3B23" Margin="-74,-125,-72,186" Grid.ColumnSpan="3">
                                 <TextBlock Text="Mathématiques" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20" FontWeight="Bold"/>
                             </Grid>
-                            <Grid Margin="-43,-192,-43,-93" Grid.ColumnSpan="3" Background="Black">
+                            <Grid Margin="10,-93,-72,-59" Background="Black" Grid.Column="1" Grid.ColumnSpan="2">
                                 <TextBlock Text="Temps" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="15" Margin="10,10,0,0"/>
-                                <TextBlock Text="Score" HorizontalAlignment="Right" VerticalAlignment="Top" Foreground="White" FontSize="15" Margin="0,10,80,0"/>
+                                <TextBlock Text="Score" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="15" Margin="286,10,0,0"/>
+                            </Grid>
+                            <Grid Margin="-73,-93,43,-50" Background="Black" BorderBrush="Orange" BorderThickness="0,0,1,0" Grid.ColumnSpan="2">
+                                <TextBlock Text="Temps" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="15" Margin="10,10,0,0"/>
+                                <TextBlock Text="Score" HorizontalAlignment="Right" VerticalAlignment="Top" Foreground="White" FontSize="15" Margin="0,11,69,0"/>
                             </Grid>
                         </Grid>
                     </Grid>
