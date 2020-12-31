@@ -10,6 +10,10 @@
 
 -- Changement du type de statut de bool à int (signification dans le cadre de l'exercice d'Histoire correspond au numéro de sa position dans la frise chronologique, dans le cadre d'un QCM ou d'une question fermé 1 si bonne réponse, -1 si mauvaise réponse)
 
+## NOTE
+- histoire et duo maths sont en mode paysage
+- choisir le visuel iphone 6 pr tt mettre en page
+
 ## TO DO
 ### 31/12/2020
 - lier pages aux boutons du menu
