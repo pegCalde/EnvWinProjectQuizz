@@ -28,7 +28,7 @@
                         <RowDefinition Height="8*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <Grid Grid.Row="0" Background="White" BorderBrush="Orange" BorderThickness="1" Margin="0,-1,0,0">
+                    <Grid Grid.Row="0" Background="White" BorderBrush="Orange" BorderThickness="1" Margin="0,6,0,500" Grid.RowSpan="2">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="7*"/>
                             <RowDefinition Height="3*"/>
@@ -37,7 +37,7 @@
                             <ColumnDefinition Width="3*"/>
                             <ColumnDefinition Width="7*"/>
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Row="0" Grid.Column="1" Text="Nom_de_l_élève" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="74,17,0,0"/>
+                        <TextBlock Grid.Row="0" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,42,0,0" Grid.Column="1"><Run Text="Nom_de_l_élève_1"/><Run/></TextBlock>
                     </Grid>
                     <Grid Grid.Row="1">
                         <Grid.RowDefinitions>
@@ -59,14 +59,17 @@
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="5*"/>
                             </Grid.ColumnDefinitions>
-                            <Grid Margin="-21,-182,-19,272" Grid.ColumnSpan="3" >
-
+                            <Grid Background="#5B3B23" Margin="-20,-157,-20,280" Grid.ColumnSpan="3" CornerRadius="10" >
+                                <TextBlock x:Name="btnMA" Text="Moyen âge" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="30"/>
                             </Grid>
-                            <Grid Grid.Column="0" Margin="-21,-45,-19,137" Grid.ColumnSpan="3">
-
+                            <Grid Grid.Column="0" Background="#5B3B23" Margin="-20,-50,-20,171" Grid.ColumnSpan="3" CornerRadius="10">
+                                <TextBlock x:Name="btnTM" Text="Temps Modernes" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="30" SelectionChanged="btnFrancais_SelectionChanged" Height="38"/>
                             </Grid>
-                            <Grid Margin="-21,92,-19,0" Grid.ColumnSpan="3">
-
+                            <Grid Background="#5B3B23" CornerRadius="10" Margin="-20,59,-20,60" Grid.ColumnSpan="3">
+                                <TextBlock x:Name="btnEC" Text="Epoque Contemporaine" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="30"/>
+                            </Grid>
+                            <Grid Background="#5B3B23" CornerRadius="10" Margin="-20,165,-20,-44" Grid.ColumnSpan="3">
+                                <TextBlock x:Name="btnCM1" Text="Appris en CM1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="30"/>
                             </Grid>
                         </Grid>
                     </Grid>
