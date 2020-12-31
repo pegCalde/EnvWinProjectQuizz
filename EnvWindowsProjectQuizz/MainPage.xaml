@@ -37,7 +37,7 @@
                             <ColumnDefinition Width="3*"/>
                             <ColumnDefinition Width="7*"/>
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Nom_de_l_élève" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <TextBlock Grid.Row="0" Grid.Column="1" Text="Nom_de_l_élève" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="74,17,0,0"/>
                     </Grid>
                     <Grid Grid.Row="1">
                         <Grid.RowDefinitions>
@@ -60,7 +60,7 @@
                                 <ColumnDefinition Width="5*"/>
                             </Grid.ColumnDefinitions>
                             <Grid Margin="-21,-182,-19,272" Grid.ColumnSpan="3" >
-                                
+
                             </Grid>
                             <Grid Grid.Column="0" Margin="-21,-45,-19,137" Grid.ColumnSpan="3">
 
