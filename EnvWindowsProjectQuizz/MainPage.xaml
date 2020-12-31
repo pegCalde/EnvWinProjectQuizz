@@ -28,7 +28,7 @@
                         <RowDefinition Height="8*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <Grid Grid.Row="0" Background="White" BorderBrush="Orange" BorderThickness="1" Margin="0,-11,0,10">
+                    <Grid Grid.Row="0" Background="White" BorderBrush="Orange" BorderThickness="1" Margin="0,6,0,500" Grid.RowSpan="2">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="7*"/>
                             <RowDefinition Height="3*"/>
@@ -37,8 +37,7 @@
                             <ColumnDefinition Width="3*"/>
                             <ColumnDefinition Width="7*"/>
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Row="0" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="80,18,0,0" Grid.ColumnSpan="2" Grid.RowSpan="2"><Run Text="Nom_de_l_élève_1"/><Run/></TextBlock>
-                        <TextBlock Grid.Row="0" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,17,108,0" Grid.Column="1" Grid.RowSpan="2"><Run Text="Nom_de_l_élève_2"/><Run/></TextBlock>
+                        <TextBlock Grid.Row="0" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,42,0,0" Grid.Column="1"><Run Text="Nom_de_l_élève_1"/><Run/></TextBlock>
                     </Grid>
                     <Grid Grid.Row="1">
                         <Grid.RowDefinitions>
@@ -60,16 +59,17 @@
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="5*"/>
                             </Grid.ColumnDefinitions>
-                            <Grid Background="#5B3B23" Margin="-74,-125,-72,186" Grid.ColumnSpan="3">
-                                <TextBlock Text="Mathématiques" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20" FontWeight="Bold"/>
+                            <Grid Background="#5B3B23" Margin="-20,-157,-20,280" Grid.ColumnSpan="3" CornerRadius="10" >
+                                <TextBlock x:Name="btnGeo" Text="Géométrie" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="30"/>
                             </Grid>
-                            <Grid Margin="10,-93,-72,-59" Background="Black" Grid.Column="1" Grid.ColumnSpan="2">
-                                <TextBlock Text="Temps" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="15" Margin="10,10,0,0"/>
-                                <TextBlock Text="Score" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="15" Margin="286,10,0,0"/>
+                            <Grid Grid.Column="0" Background="#5B3B23" Margin="-20,-50,-20,171" Grid.ColumnSpan="3" CornerRadius="10">
+                                <TextBlock x:Name="btnCalcul" Text="Calcul" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="30" SelectionChanged="btnFrancais_SelectionChanged" Height="38"/>
                             </Grid>
-                            <Grid Margin="-73,-93,43,-50" Background="Black" BorderBrush="Orange" BorderThickness="0,0,1,0" Grid.ColumnSpan="2">
-                                <TextBlock Text="Temps" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="15" Margin="10,10,0,0"/>
-                                <TextBlock Text="Score" HorizontalAlignment="Right" VerticalAlignment="Top" Foreground="White" FontSize="15" Margin="0,11,69,0"/>
+                            <Grid Background="#5B3B23" CornerRadius="10" Margin="-20,59,-20,60" Grid.ColumnSpan="3">
+                                <TextBlock x:Name="btnMesures" Text="Mesures" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="30"/>
+                            </Grid>
+                            <Grid Background="#5B3B23" CornerRadius="10" Margin="-20,165,-20,-44" Grid.ColumnSpan="3">
+                                <TextBlock x:Name="btnNum" Text="Numérotation" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="30"/>
                             </Grid>
                         </Grid>
                     </Grid>
