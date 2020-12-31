@@ -26,5 +26,10 @@ namespace EnvWindowsProjectQuizz
         {
             this.InitializeComponent();
         }
+
+        private void txtAbout_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
