@@ -8,7 +8,69 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Background="#F8F8D9">
+        <NavigationView x:Name="NavigationViewControl" IsBackEnabled="False" IsBackButtonVisible="Collapsed" IsSettingsVisible="False" Background="#5B3B23">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Content="A" x:Name="A" />
+                <NavigationViewItem Content="B" x:Name="B" />
+                <NavigationViewItem Content="C" x:Name="C" />
+            </NavigationView.MenuItems>
+            <NavigationView.Header>
+                <Grid Background="#F8F8D9" Margin="-46,-5,0,-27">
+                    <TextBlock Grid.Column="0" Grid.Row="0" Text="Teste Toi" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" />
+                </Grid>
+            </NavigationView.Header>
+            <NavigationView.Content>
+                <Grid Background="#F8F8D9" Margin="0,27,0,-1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="8*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="3*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="4*"/>
+                            <RowDefinition Height="2*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="8*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
 
+                        <Grid Grid.Row="3" Grid.Column="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="5*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="5*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Background="#5B3B23" Margin="-21,-182,-19,272" Grid.ColumnSpan="3" CornerRadius="30" >
+                                <TextBlock x:Name="btnHistoire" Text="Histoire" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="30"/>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Row="2" Background="#5B3B23">
+                        <TextBlock Text="©calderonpeggy_savinguillaume" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="15"/>
+                    </Grid>
+                </Grid>
+            </NavigationView.Content>
+        </NavigationView>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger
+                        MinWindowWidth="{x:Bind NavigationViewControl.CompactModeThresholdWidth}" />
+                    </VisualState.StateTriggers>
+
+                    <VisualState.Setters>
+                        <Setter Target="NavigationViewControl.PaneDisplayMode" Value="LeftMinimal"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
     </Grid>
 </Page>
