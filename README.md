@@ -13,6 +13,7 @@
 ## NOTE
 - histoire et duo maths sont en mode paysage
 - choisir le visuel iphone 6 pr tt mettre en page
+- soucis couleur sur certains textes, la couleur n'est jamais prise en compte
 
 ## TO DO
 ### 31/12/2020
