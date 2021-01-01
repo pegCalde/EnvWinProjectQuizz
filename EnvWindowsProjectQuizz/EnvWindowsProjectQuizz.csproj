@@ -128,8 +128,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ClassesMétiers\Question.cs" />
     <Compile Include="ClassesMétiers\Reponse.cs" />
-    <Compile Include="solo_maths_mesures.xaml.cs">
-      <DependentUpon>solo_maths_mesures.xaml</DependentUpon>
+    <Compile Include="solo_maths_num.xaml.cs">
+      <DependentUpon>solo_maths_num.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -171,7 +171,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="solo_maths_mesures.xaml">
+    <Page Include="solo_maths_num.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
