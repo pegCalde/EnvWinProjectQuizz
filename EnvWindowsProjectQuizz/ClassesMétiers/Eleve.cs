@@ -20,5 +20,10 @@ namespace EnvWindowsProjectQuizz
         {
             return "L'élève " + this.nom + " à reçu la note de " + this.note;
         }
+
+        public string Nom
+        {
+            get { return this.nom; }
+        }
     }
 }
