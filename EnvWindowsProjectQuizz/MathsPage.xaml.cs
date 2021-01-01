@@ -22,10 +22,10 @@ namespace EnvWindowsProjectQuizz
     /// <summary>
     /// Une page vide peut être utilisée seule ou constituer une page de destination au sein d'un frame.
     /// </summary>
-    public sealed partial class HistoirePage : Page
+    public sealed partial class MathsPage : Page
     {
         Eleve currentStudent;
-        public HistoirePage()
+        public MathsPage()
         {
             this.InitializeComponent();
         }

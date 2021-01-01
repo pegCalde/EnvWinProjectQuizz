@@ -70,7 +70,7 @@ namespace EnvWindowsProjectQuizz
         {
             if(currentStudent != null)
             {
-                this.Frame.Navigate(typeof(HistoirePage), currentStudent);
+                this.Frame.Navigate(typeof(MathsPage), currentStudent);
             }
             
         }
