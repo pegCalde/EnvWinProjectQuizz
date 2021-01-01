@@ -11,9 +11,7 @@
 -- Changement du type de statut de bool à int (signification dans le cadre de l'exercice d'Histoire correspond au numéro de sa position dans la frise chronologique, dans le cadre d'un QCM ou d'une question fermé 1 si bonne réponse, -1 si mauvaise réponse)
 
 ## NOTE
-- histoire et duo maths sont en mode paysage
 - choisir le visuel iphone 6 pr tt mettre en page
-- soucis couleur sur certains textes, la couleur n'est jamais prise en compte
 
 ## TO DO
 ### 31/12/2020
@@ -30,5 +28,17 @@
 - mettre en place affichage bonne réponse en vert et mauvaise réponse en rouge
 - mettre en place fonctionnement duo maths -> qd 1 élève a faux, ca passe à l'autre élève
 - bouton 'valider' pr Fr et Histoire
-- powerpoint présentation
 
+### 01/01/2021
+- 
+
+### 02/01/2021
+- faire en sorte que duo maths et histoire s'affichent en mode paysage
+
+### 03/01/2021
+- powerpoint présentation
+- résolution des bugs
+
+## BUGS
+- le menu reste visible sur certaines pages
+- soucis couleur sur certains textes, la couleur n'est jamais prise en compte
