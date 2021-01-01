@@ -20,6 +20,9 @@
 
 ## TO DO
 ### 31/12/2020
+- liaison données utilisateur dans combo box OK
+- fonctionnalités bouton valider OK
+- affichage de l'utilisateur après login OK
 - lier pages aux boutons du menu
 - afficher les questions Fr
 - afficher les questions maths
