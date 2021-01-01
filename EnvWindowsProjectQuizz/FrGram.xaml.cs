@@ -21,5 +21,10 @@ namespace EnvWindowsProjectQuizz
         {
             InitializeComponent();
         }
+
+        private void ReturnHome_Tapped(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
     }
 }
