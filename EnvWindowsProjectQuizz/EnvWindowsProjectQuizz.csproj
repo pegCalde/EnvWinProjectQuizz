@@ -120,7 +120,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="ClassesMétiers\Eleve.cs" />
-    <Compile Include="Eleves.cs" />
+    <Compile Include="Données\Eleves.cs" />
     <Compile Include="HistoirePage.xaml.cs">
       <DependentUpon>HistoirePage.xaml</DependentUpon>
     </Compile>

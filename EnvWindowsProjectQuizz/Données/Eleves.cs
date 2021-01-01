@@ -8,20 +8,20 @@ using System.Threading.Tasks;
 namespace EnvWindowsProjectQuizz.Données
 {
     class Eleves : ObservableCollection<Eleve>
-    { 
+    {
 
-        public Eleves(): base()
+        public Eleves() : base()
         {
             Add(new Eleve("Savin Guillaume", 0));
             Add(new Eleve("Calderon Peggy", 0));
             Add(new Eleve("Tachibana Kanade", 0));
         }
 
-        public Eleve GetEleve(String nom) 
+        public Eleve GetEleve(String nom)
         {
-            foreach(Eleve e in this)
+            foreach (Eleve e in this)
             {
-                if(e.Nom == nom)
+                if (e.Nom == nom)
                 {
                     return e;
                 }
