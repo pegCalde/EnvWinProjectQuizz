@@ -28,8 +28,8 @@
 - afficher les questions maths
 - afficher notes Fr + Maths + Histoire
 - chrono maths
-- afficher frise histoire EN COURS
-- mettre icône maison pr retourner à l'accueil EN COURS
+- afficher frise histoire OK
+- mettre icône maison pr retourner à l'accueil AFFICHAGE OK FONCTIONNEL EN COURS
 - afficher réponses histoire -> input histoire pr mettre sur les bonnes dates de la frise
 - afficher réponses Fr -> checkbox pr choix multiple + radio pr fermé
 - afficher réponses maths -> tapped
@@ -46,6 +46,7 @@
 ### 03/01/2021
 - powerpoint présentation
 - résolution des bugs
+- vérifier affichage sur ttes les pages
 
 ## BUGS
 - le menu reste visible sur certaines pages
