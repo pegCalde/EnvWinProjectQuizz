@@ -120,8 +120,8 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="ClassesMétiers\Eleve.cs" />
-    <Compile Include="FrLexique.xaml.cs">
-      <DependentUpon>FrLexique.xaml</DependentUpon>
+    <Compile Include="FrOrtho.xaml.cs">
+      <DependentUpon>FrOrtho.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -167,7 +167,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <EmbeddedResource Include="FrLexique.xaml">
+    <EmbeddedResource Include="FrOrtho.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
