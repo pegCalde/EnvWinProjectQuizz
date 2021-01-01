@@ -20,9 +20,9 @@ namespace EnvWindowsProjectQuizz
     /// <summary>
     /// Une page vide peut être utilisée seule ou constituer une page de destination au sein d'un frame.
     /// </summary>
-    public sealed partial class solo_maths_num : Page
+    public sealed partial class solo_maths_geo : Page
     {
-        public solo_maths_num()
+        public solo_maths_geo()
         {
             this.InitializeComponent();
         }
