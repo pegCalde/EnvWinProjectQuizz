@@ -25,8 +25,8 @@
 - afficher les questions maths
 - afficher notes Fr + Maths + Histoire
 - chrono maths
-- afficher frise histoire
-- mettre icône maison pr retourner à l'accueil
+- afficher frise histoire EN COURS
+- mettre icône maison pr retourner à l'accueil EN COURS
 - afficher réponses histoire -> input histoire pr mettre sur les bonnes dates de la frise
 - afficher réponses Fr -> checkbox pr choix multiple + radio pr fermé
 - afficher réponses maths -> tapped
