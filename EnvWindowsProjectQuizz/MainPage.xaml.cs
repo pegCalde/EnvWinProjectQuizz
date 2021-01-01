@@ -36,7 +36,7 @@ namespace EnvWindowsProjectQuizz
 
         private async void btnValider_Click(object sender, RoutedEventArgs e)
         {
-            if(choixEleves.SelectedItem == null)
+            if (choixEleves.SelectedItem == null)
             {
 
             }
@@ -56,7 +56,7 @@ namespace EnvWindowsProjectQuizz
                 afficheEleve.Foreground = new SolidColorBrush(Colors.Gray);
                 gridEleve.Children.Add(afficheEleve);
             }
-            
+
         }
 
         private void choixEleves_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -64,6 +64,42 @@ namespace EnvWindowsProjectQuizz
             btnValider.Background = new SolidColorBrush(Colors.LimeGreen);
             btnValider.Foreground = new SolidColorBrush(Colors.White);
             btnValider.FontWeight = Windows.UI.Text.FontWeights.Bold;
+        }
+
+        private void btnMaths_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            if(currentStudent != null)
+            {
+                this.Frame.Navigate(typeof(MathsPage), currentStudent);
+            }
+            
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            if(e.Parameter == "")
+            {
+
+            } else
+            {
+                base.OnNavigatedTo(e);
+
+                currentStudent = e.Parameter as Eleve;
+
+                gridEleve.Children.Clear();
+                gridEleve.RowDefinitions.Clear();
+                gridEleve.ColumnDefinitions.Clear();
+
+                TextBlock afficheEleve = new TextBlock();
+                afficheEleve.Text = "Nom de l'élève : " + currentStudent.Nom;
+                afficheEleve.HorizontalAlignment = HorizontalAlignment.Center;
+                afficheEleve.VerticalAlignment = VerticalAlignment.Center;
+                afficheEleve.FontSize = 25;
+                afficheEleve.FontWeight = Windows.UI.Text.FontWeights.Bold;
+                afficheEleve.Foreground = new SolidColorBrush(Colors.Gray);
+                gridEleve.Children.Add(afficheEleve);
+            }
+            
         }
     }
 }
