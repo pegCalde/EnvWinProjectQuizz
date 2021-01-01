@@ -120,8 +120,8 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="ClassesMétiers\Eleve.cs" />
-    <Compile Include="duo_maths_geo.xaml.cs">
-      <DependentUpon>duo_maths_geo.xaml</DependentUpon>
+    <Compile Include="duo_maths_calcul.xaml.cs">
+      <DependentUpon>duo_maths_calcul.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -167,7 +167,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="duo_maths_geo.xaml">
+    <Page Include="duo_maths_calcul.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
