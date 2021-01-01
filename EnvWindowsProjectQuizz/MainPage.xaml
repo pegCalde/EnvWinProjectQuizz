@@ -8,17 +8,35 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-
     <Grid Background="#F8F8D9">
-        <NavigationView x:Name="NavigationViewControl" IsBackEnabled="False" IsBackButtonVisible="Collapsed" IsSettingsVisible="False" Background="#5B3B23">
+        <NavigationView x:Name="NavigationViewControl" IsBackEnabled="False" IsBackButtonVisible="Collapsed" IsSettingsVisible="False" Background="#5B3B23" Foreground="Black">
             <NavigationView.MenuItems>
-                <NavigationViewItem Content="Français" x:Name="Fr" />
-                <NavigationViewItem Content="Histoire" x:Name="Histoire" />
-                <NavigationViewItem Content="Mathématiques" x:Name="Maths" />
+                <NavigationViewItemHeader Content="MENU" Foreground="White" HorizontalAlignment="Center" FontSize="50"/>
+                <NavigationViewItem Content="ACCUEIL" x:Name="Home" />
+                <NavigationViewItemSeparator />
+                <NavigationViewItem Content="FRANCAIS" x:Name="Fr" />
+                <NavigationViewItem Content="Conjugaison" x:Name="Fr_1" />
+                <NavigationViewItem Content="Lexique" x:Name="Fr_2" />
+                <NavigationViewItem Content="Grammaire" x:Name="Fr_3" />
+                <NavigationViewItem Content="Orthographe" x:Name="Fr_4" />
+                <NavigationViewItemSeparator />
+                <NavigationViewItem Content="MATHEMATIQUES" x:Name="Maths" />
+                <NavigationViewItem Content="Géométrie" x:Name="M_1" />
+                <NavigationViewItem Content="Calcul" x:Name="M_2" />
+                <NavigationViewItem Content="Mesures" x:Name="M_3" />
+                <NavigationViewItem Content="Numérotation" x:Name="M_4" />
+                <NavigationViewItemSeparator />
+                <NavigationViewItem Content="HISTOIRE" x:Name="Hist" />
+                <NavigationViewItem Content="Moyen âge" x:Name="H_1" />
+                <NavigationViewItem Content="Temps Modernes" x:Name="H_2" />
+                <NavigationViewItem Content="Epoque Contemporaine" x:Name="H_3" />
+                <NavigationViewItem Content="Appris en CM1" x:Name="H_4" />
+                <NavigationViewItemSeparator />
+                <NavigationViewItem Content="AIDE" x:Name="Help" />
             </NavigationView.MenuItems>
             <NavigationView.Header>
-                <Grid Background="#F8F8D9" Margin="-46,-5,0,-27">
-                    <TextBlock Grid.Column="0" Grid.Row="0" Text="Teste Toi" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" />
+                <Grid Background="#FBFBC6" Margin="-46,-5,0,-27">
+                    <TextBlock Grid.Column="0" Grid.Row="0" Text="Teste Toi" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" />
                 </Grid>
             </NavigationView.Header>
             <NavigationView.Content>
@@ -37,7 +55,9 @@
                             <ColumnDefinition Width="3*"/>
                             <ColumnDefinition Width="7*"/>
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Nom_de_l_élève" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Choix élève :" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+                        <ComboBox Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Stretch" Margin="1,0,19,0" Height="38" Background="LightGray" Foreground="Black" BorderBrush="Gray"/>
+                        <Button Grid.Column="1" Content="Valider" Margin="270,86,0,0" CornerRadius="7,7,7,7" Width="89" Grid.RowSpan="2" VerticalAlignment="Top" Background="#FFA2A2A2"/>
                     </Grid>
                     <Grid Grid.Row="1">
                         <Grid.RowDefinitions>
@@ -59,14 +79,14 @@
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="5*"/>
                             </Grid.ColumnDefinitions>
-                            <Grid Margin="-21,-182,-19,272" Grid.ColumnSpan="3" >
-                                
+                            <Grid Background="#5B3B23" Margin="-21,-182,-19,300" Grid.ColumnSpan="3" CornerRadius="30" >
+                                <TextBlock x:Name="btnHistoire" Text="Histoire" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="30"/>
                             </Grid>
-                            <Grid Grid.Column="0" Margin="-21,-45,-19,137" Grid.ColumnSpan="3">
-
+                            <Grid Grid.Column="0" Background="#5B3B23" Margin="-21,-45,-19,160" Grid.ColumnSpan="3" CornerRadius="30">
+                                <TextBlock x:Name="btnFrancais" Text="Français" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="30" SelectionChanged="btnFrancais_SelectionChanged" Height="38"/>
                             </Grid>
-                            <Grid Margin="-21,92,-19,0" Grid.ColumnSpan="3">
-
+                            <Grid Background="#5B3B23" CornerRadius="30" Margin="-21,92,-19,25" Grid.ColumnSpan="3">
+                                <TextBlock x:Name="btnMaths" Text="Mathématiques" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="30"/>
                             </Grid>
                         </Grid>
                     </Grid>
