@@ -83,33 +83,33 @@
                             </Grid>
                             <Grid Margin="-163,-60,10,300" Grid.ColumnSpan="3">
                                 <!--Mettre les input des réponses à placer sur la frise-->
-                                <Image Source="/Assets/frise_moyenage_vide.png" Margin="78,-44,-93,-146" Stretch="Fill"/>
-                                <StackPanel Orientation="Horizontal" Margin="162,92,482,-130" BorderBrush="Orange" BorderThickness="1">
-                                    <TextBox x:Name="answerInput1" Header="" Width="89" Height="36"/>
+                                <Image Source="/Assets/frise_prehistoire_vide.png" Margin="78,-44,-94,-146" Stretch="Fill"/>
+                                <StackPanel Orientation="Horizontal" Margin="115,84,526,-128" BorderBrush="Orange" BorderThickness="1">
+                                    <TextBox x:Name="answerInput1" Header="" Width="92" Height="42"/>
                                 </StackPanel>
-                                <StackPanel Orientation="Horizontal" Margin="674,92,-79,-130" BorderBrush="Orange" BorderThickness="1">
-                                    <TextBox x:Name="answerInput2" Header="" Width="138" Height="37" TextChanged="answerInput2_TextChanged"/>
+                                <StackPanel Orientation="Horizontal" Margin="631,86,-77,-133" BorderBrush="Orange" BorderThickness="1">
+                                    <TextBox x:Name="answerInput2" Header="" Width="179" Height="46" TextChanged="answerInput2_TextChanged"/>
                                 </StackPanel>
-                                <StackPanel Orientation="Horizontal" Margin="482,92,103,-130" BorderBrush="Orange" BorderThickness="1">
-                                    <TextBox x:Name="answerInput3" Header="" Width="148" Height="37"/>
+                                <StackPanel Orientation="Horizontal" Margin="400,84,246,-128" BorderBrush="Orange" BorderThickness="1">
+                                    <TextBox x:Name="answerInput3" Header="" Width="86" Height="42"/>
                                 </StackPanel>
-                                <StackPanel Orientation="Horizontal" Margin="268,93,340,-128" BorderBrush="Orange" BorderThickness="1">
-                                    <TextBox x:Name="answerInput4" Header="" Width="126" Height="34"/>
+                                <StackPanel Orientation="Horizontal" Margin="234,84,406,-125" BorderBrush="Orange" BorderThickness="1">
+                                    <TextBox x:Name="answerInput4" Header="" Width="93" Height="39"/>
                                 </StackPanel>
                             </Grid>
                             <Grid Margin="-73,75,-72,-48" BorderBrush="Black" BorderThickness="0,1,0,0" Grid.ColumnSpan="3">
                                 <!--Mettre les input des réponses à placer sur la frise-->
-                                <Grid Background="White" Margin="407,24,187,20" BorderBrush="Orange" BorderThickness="1">
-                                    <TextBlock Text="sacre de Charlemagne" Foreground="Black" FontSize="12" Width="120" Height="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <Grid Background="White" Margin="422,25,187,20" BorderBrush="Orange" BorderThickness="1">
+                                    <TextBlock Text="premiers Hommes" Foreground="Black" FontSize="12" Width="101" Height="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                 </Grid>
-                                <Grid Background="White" Margin="10,22,530,20" BorderBrush="Orange" BorderThickness="1">
-                                    <TextBlock Text="1er livre imprimé par Gutenberg" Foreground="Black" FontSize="12" Width="180" Height="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <Grid Background="White" Margin="10,23,560,20" BorderBrush="Orange" BorderThickness="1">
+                                    <TextBlock Text="début de la sédentarisation" Foreground="Black" FontSize="12" Width="149" Height="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                 </Grid>
-                                <Grid Background="White" Margin="254,23,404,18" BorderBrush="Orange" BorderThickness="1">
-                                    <TextBlock Text="Hégire" Foreground="Black" FontSize="12" Width="40" Height="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <Grid Background="White" Margin="260,26,363,18" BorderBrush="Orange" BorderThickness="1">
+                                    <TextBlock Text="maitrise du feu" Foreground="Black" FontSize="12" Width="86" Height="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                 </Grid>
-                                <Grid Background="White" Margin="596,29,58,15" BorderBrush="Orange" BorderThickness="1">
-                                    <TextBlock Text="croisades" Foreground="Black" FontSize="12" Width="53" Height="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <Grid Background="White" Margin="596,30,28,15" BorderBrush="Orange" BorderThickness="1">
+                                    <TextBlock Text="premiers outils" Foreground="Black" FontSize="12" Width="79" Height="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                 </Grid>
                             </Grid>
                         </Grid>
