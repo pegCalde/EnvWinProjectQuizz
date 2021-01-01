@@ -34,7 +34,7 @@ namespace EnvWindowsProjectQuizz
             choixEleves.DisplayMemberPath = "Nom";
         }
 
-        private async void btnValider_Click(object sender, RoutedEventArgs e)
+        private void btnValider_Click(object sender, RoutedEventArgs e)
         {
             if (choixEleves.SelectedItem == null)
             {
@@ -73,6 +73,14 @@ namespace EnvWindowsProjectQuizz
                 this.Frame.Navigate(typeof(MathsPage), currentStudent);
             }
             
+        }
+
+        private void btnHistoire_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            if (currentStudent != null)
+            {
+                this.Frame.Navigate(typeof(HistoirePage), currentStudent);
+            }
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)

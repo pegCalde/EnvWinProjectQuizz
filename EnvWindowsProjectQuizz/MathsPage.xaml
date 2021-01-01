@@ -27,7 +27,7 @@
                 <NavigationViewItem Content="Mesures" x:Name="M_3" />
                 <NavigationViewItem Content="Numérotation" x:Name="M_4" />
                 <NavigationViewItemSeparator />
-                <NavigationViewItem Content="HISTOIRE" x:Name="Hist" />
+                <NavigationViewItem Content="HISTOIRE" x:Name="Hist" Tapped="btnHistoire_Tapped"/>
                 <NavigationViewItem Content="Moyen âge" x:Name="H_1" />
                 <NavigationViewItem Content="Temps Modernes" x:Name="H_2" />
                 <NavigationViewItem Content="Epoque Contemporaine" x:Name="H_3" />

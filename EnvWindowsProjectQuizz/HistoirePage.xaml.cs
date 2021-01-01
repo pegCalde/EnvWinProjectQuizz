@@ -1,5 +1,4 @@
-﻿using EnvWindowsProjectQuizz.Données;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,10 +21,10 @@ namespace EnvWindowsProjectQuizz
     /// <summary>
     /// Une page vide peut être utilisée seule ou constituer une page de destination au sein d'un frame.
     /// </summary>
-    public sealed partial class MathsPage : Page
+    public sealed partial class HistoirePage : Page
     {
         Eleve currentStudent;
-        public MathsPage()
+        public HistoirePage()
         {
             this.InitializeComponent();
         }
@@ -55,9 +54,9 @@ namespace EnvWindowsProjectQuizz
             this.Frame.Navigate(typeof(MainPage), currentStudent);
         }
 
-        private void btnHistoire_Tapped(object sender, TappedRoutedEventArgs e)
+        private void btnMaths_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(HistoirePage), currentStudent);
+            this.Frame.Navigate(typeof(MathsPage), currentStudent);
         }
     }
 }

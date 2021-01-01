@@ -121,14 +121,13 @@
     </Compile>
     <Compile Include="ClassesMétiers\Eleve.cs" />
     <Compile Include="Données\Eleves.cs" />
-    <Compile Include="MathsPage.xaml.cs">
-      <DependentUpon>MathsPage.xaml</DependentUpon>
+    <Compile Include="HistoirePage.xaml.cs">
+      <DependentUpon>HistoirePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="ClassesMétiers\Matiere.cs" />
     <Compile Include="ClassesMétiers\Partie.cs" />
-    <Compile Include="MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="MainPage.xaml.cs" />
+    <Compile Include="MathsPage.xaml.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ClassesMétiers\Question.cs" />
     <Compile Include="ClassesMétiers\Reponse.cs" />
@@ -153,13 +152,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="MathsPage.xaml">
+    <Page Include="HistoirePage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="MainPage.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MathsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
