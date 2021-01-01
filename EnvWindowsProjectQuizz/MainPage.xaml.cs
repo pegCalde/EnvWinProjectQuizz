@@ -66,7 +66,7 @@ namespace EnvWindowsProjectQuizz
             btnValider.FontWeight = Windows.UI.Text.FontWeights.Bold;
         }
 
-        private void btnHistoire_Tapped(object sender, TappedRoutedEventArgs e)
+        private void btnMaths_Tapped(object sender, TappedRoutedEventArgs e)
         {
             if(currentStudent != null)
             {

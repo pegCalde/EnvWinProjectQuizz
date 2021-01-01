@@ -20,13 +20,13 @@
                 <NavigationViewItem Content="Grammaire" x:Name="Fr_3" />
                 <NavigationViewItem Content="Orthographe" x:Name="Fr_4" />
                 <NavigationViewItemSeparator />
-                <NavigationViewItem Content="MATHEMATIQUES" x:Name="Maths" />
+                <NavigationViewItem Content="MATHEMATIQUES" x:Name="Maths" Tapped="btnMaths_Tapped"/>
                 <NavigationViewItem Content="Géométrie" x:Name="M_1" />
                 <NavigationViewItem Content="Calcul" x:Name="M_2" />
                 <NavigationViewItem Content="Mesures" x:Name="M_3" />
                 <NavigationViewItem Content="Numérotation" x:Name="M_4" />
                 <NavigationViewItemSeparator />
-                <NavigationViewItem Content="HISTOIRE" x:Name="Hist" Tapped="btnHistoire_Tapped"/>
+                <NavigationViewItem Content="HISTOIRE" x:Name="Hist"/>
                 <NavigationViewItem Content="Moyen âge" x:Name="H_1" />
                 <NavigationViewItem Content="Temps Modernes" x:Name="H_2" />
                 <NavigationViewItem Content="Epoque Contemporaine" x:Name="H_3" />
@@ -79,13 +79,13 @@
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="5*"/>
                             </Grid.ColumnDefinitions>
-                            <Grid Background="#5B3B23" Margin="-21,-182,-19,300" Grid.ColumnSpan="3" CornerRadius="30" Tapped="btnHistoire_Tapped" >
+                            <Grid Background="#5B3B23" Margin="-21,-182,-19,300" Grid.ColumnSpan="3" CornerRadius="30">
                                 <TextBlock x:Name="btnHistoire" Text="Histoire" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="30"/>
                             </Grid>
                             <Grid Grid.Column="0" Background="#5B3B23" Margin="-21,-45,-19,160" Grid.ColumnSpan="3" CornerRadius="30">
                                 <TextBlock x:Name="btnFrancais" Text="Français" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="30" Height="38"/>
                             </Grid>
-                            <Grid Background="#5B3B23" CornerRadius="30" Margin="-21,92,-19,25" Grid.ColumnSpan="3">
+                            <Grid Background="#5B3B23" CornerRadius="30" Margin="-21,92,-19,25" Grid.ColumnSpan="3" Tapped="btnMaths_Tapped">
                                 <TextBlock x:Name="btnMaths" Text="Mathématiques" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="30"/>
                             </Grid>
                         </Grid>
