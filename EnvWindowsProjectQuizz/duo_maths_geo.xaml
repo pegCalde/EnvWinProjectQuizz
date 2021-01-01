@@ -36,8 +36,8 @@
             </NavigationView.MenuItems>
             <NavigationView.Header>
                 <Grid Background="#F8F8D9" Margin="-46,-5,0,-27">
-                    <TextBlock Grid.Column="0" Grid.Row="0" Text="Teste Toi" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" />
-                    <Image   Source="/Assets/home-icon-brun.png" HorizontalAlignment="Left" Margin="402,7,0,39" Width="20"/>
+                    <TextBlock Foreground="Black" Grid.Column="0" Grid.Row="0" Text="Teste Toi" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" />
+                    <Image x:Name="HomePage" Tapped="ReturnHome_Tapped" Source="/Assets/home-icon-brun.png" HorizontalAlignment="Left" Margin="732,7,0,39" Width="20"/>
                 </Grid>
             </NavigationView.Header>
             <NavigationView.Content>
@@ -56,8 +56,8 @@
                             <ColumnDefinition Width="3*"/>
                             <ColumnDefinition Width="7*"/>
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Row="0" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="80,18,0,0" Grid.ColumnSpan="2" Grid.RowSpan="2"><Run Text="Nom_de_l_élève_1"/><Run/></TextBlock>
-                        <TextBlock Grid.Row="0" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,17,108,0" Grid.Column="1" Grid.RowSpan="2"><Run Text="Nom_de_l_élève_2"/><Run/></TextBlock>
+                        <TextBlock Foreground="Black" Grid.Row="0" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="80,18,0,0" Grid.ColumnSpan="2" Grid.RowSpan="2"><Run Text="Nom_de_l_élève_1"/><Run/></TextBlock>
+                        <TextBlock Foreground="Black" Grid.Row="0" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,17,108,0" Grid.Column="1" Grid.RowSpan="2"><Run Text="Nom_de_l_élève_2"/><Run/></TextBlock>
                     </Grid>
                     <Grid Grid.Row="1">
                         <Grid.RowDefinitions>
