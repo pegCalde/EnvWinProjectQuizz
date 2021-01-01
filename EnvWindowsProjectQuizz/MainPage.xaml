@@ -83,33 +83,33 @@
                             </Grid>
                             <Grid Margin="-163,-60,10,300" Grid.ColumnSpan="3">
                                 <!--Mettre les input des réponses à placer sur la frise-->
-                                <Image Source="/Assets/frise_epoquecontemporaine_vide.png" Margin="22,-44,-93,-146" Stretch="Fill"/>
-                                <StackPanel Orientation="Horizontal" Margin="158,61,450,-118">
-                                    <TextBox x:Name="answerInput1" Header="" Width="125" Height="38"/>
+                                <Image Source="/Assets/frise_moyenage_vide.png" Margin="78,-44,-93,-146" Stretch="Fill"/>
+                                <StackPanel Orientation="Horizontal" Margin="162,92,482,-130" BorderBrush="Orange" BorderThickness="1">
+                                    <TextBox x:Name="answerInput1" Header="" Width="89" Height="36"/>
                                 </StackPanel>
-                                <StackPanel Orientation="Horizontal" Margin="672,69,-2,-105">
-                                    <TextBox x:Name="answerInput2" Header="" Width="65" Height="35"/>
+                                <StackPanel Orientation="Horizontal" Margin="674,92,-79,-130" BorderBrush="Orange" BorderThickness="1">
+                                    <TextBox x:Name="answerInput2" Header="" Width="138" Height="37" TextChanged="answerInput2_TextChanged"/>
                                 </StackPanel>
-                                <StackPanel Orientation="Horizontal" Margin="439,69,230,-106">
-                                    <TextBox x:Name="answerInput3" Header="" Width="65" Height="34"/>
+                                <StackPanel Orientation="Horizontal" Margin="482,92,103,-130" BorderBrush="Orange" BorderThickness="1">
+                                    <TextBox x:Name="answerInput3" Header="" Width="148" Height="37"/>
                                 </StackPanel>
-                                <StackPanel Orientation="Horizontal" Margin="366,105,264,-136">
-                                    <TextBox x:Name="answerInput4" Header="" Width="104" Height="28"/>
+                                <StackPanel Orientation="Horizontal" Margin="268,93,340,-128" BorderBrush="Orange" BorderThickness="1">
+                                    <TextBox x:Name="answerInput4" Header="" Width="126" Height="34"/>
                                 </StackPanel>
                             </Grid>
                             <Grid Margin="-73,75,-72,-48" BorderBrush="Black" BorderThickness="0,1,0,0" Grid.ColumnSpan="3">
                                 <!--Mettre les input des réponses à placer sur la frise-->
-                                <Grid Background="White" Margin="378,23,187,20" BorderBrush="Orange" BorderThickness="1">
-                                    <TextBlock Text="abolition de l'esclavage" Foreground="Black" FontSize="12" Width="133" Height="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <Grid Background="White" Margin="407,24,187,20" BorderBrush="Orange" BorderThickness="1">
+                                    <TextBlock Text="sacre de Charlemagne" Foreground="Black" FontSize="12" Width="120" Height="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                 </Grid>
-                                <Grid Background="White" Margin="20,20,545,20" BorderBrush="Orange" BorderThickness="1">
-                                    <TextBlock Text="droit de vote des femmes" Foreground="Black" FontSize="12" Width="156" Height="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <Grid Background="White" Margin="10,22,530,20" BorderBrush="Orange" BorderThickness="1">
+                                    <TextBlock Text="1er livre imprimé par Gutenberg" Foreground="Black" FontSize="12" Width="180" Height="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                 </Grid>
-                                <Grid Background="White" Margin="202,25,363,14" BorderBrush="Orange" BorderThickness="1">
-                                    <TextBlock Text="traité de Maastrich" Foreground="Black" FontSize="12" Width="133" Height="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <Grid Background="White" Margin="254,23,404,18" BorderBrush="Orange" BorderThickness="1">
+                                    <TextBlock Text="Hégire" Foreground="Black" FontSize="12" Width="40" Height="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                 </Grid>
-                                <Grid Background="White" Margin="555,24,10,17" BorderBrush="Orange" BorderThickness="1">
-                                    <TextBlock Text="1ere guerre mondiale" Foreground="Black" FontSize="12" Width="133" Height="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <Grid Background="White" Margin="596,29,58,15" BorderBrush="Orange" BorderThickness="1">
+                                    <TextBlock Text="croisades" Foreground="Black" FontSize="12" Width="53" Height="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                 </Grid>
                             </Grid>
                         </Grid>
