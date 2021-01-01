@@ -37,7 +37,7 @@
             <NavigationView.Header>
                 <Grid Background="#F8F8D9" Margin="-46,-5,0,-27">
                     <TextBlock Grid.Column="0" Grid.Row="0" Text="Teste Toi" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" />
-                    <Image   Source="/Assets/home-icon-brun.png" HorizontalAlignment="Left" Margin="402,7,0,39" Width="20"/>
+                    <Image x:Name="HomePage" Tapped="ReturnHome_Tapped" Source="/Assets/home-icon-brun.png" HorizontalAlignment="Left" Margin="732,7,0,39" Width="20"/>
                 </Grid>
             </NavigationView.Header>
             <NavigationView.Content>
