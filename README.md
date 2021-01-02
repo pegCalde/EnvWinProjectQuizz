@@ -19,29 +19,27 @@
 - choisir le visuel iphone 6 pr tt mettre en page
 
 ## TO DO
-### 31/12/2020
+### 01/01/2021
 - liaison données utilisateur dans combo box OK
 - fonctionnalités bouton valider OK
 - affichage de l'utilisateur après login OK
-- lier pages aux boutons du menu
-- afficher les questions Fr
-- afficher les questions maths
-- afficher notes Fr + Maths + Histoire
-- chrono maths
 - afficher frise histoire OK
-- mettre icône maison pr retourner à l'accueil AFFICHAGE OK FONCTIONNEL EN COURS
-- afficher réponses histoire -> input histoire pr mettre sur les bonnes dates de la frise
+- afficher réponses histoire -> input histoire pr mettre sur les bonnes dates de la frise OK
+
+### 02/01/2021
+- faire en sorte que duo maths et histoire s'affichent en mode paysage
 - afficher réponses Fr -> checkbox pr choix multiple + radio pr fermé
 - afficher réponses maths -> tapped
 - mettre en place affichage bonne réponse en vert et mauvaise réponse en rouge
 - mettre en place fonctionnement duo maths -> qd 1 élève a faux, ca passe à l'autre élève
 - bouton 'valider' pr Fr et Histoire
-
-### 01/01/2021
-- 
-
-### 02/01/2021
-- faire en sorte que duo maths et histoire s'affichent en mode paysage
+- afficher les questions Fr
+- afficher les questions maths
+- afficher notes Fr + Maths + Histoire
+- chrono maths
+- lier pages aux boutons du menu EN COURS
+- mettre icône maison pr retourner à l'accueil AFFICHAGE OK FONCTIONNEL EN COURS
+- mettre en place double tap pr mettre réponse sur frise Histoire
 
 ### 03/01/2021
 - powerpoint présentation
