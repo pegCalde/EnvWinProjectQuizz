@@ -25,6 +25,7 @@
 - affichage de l'utilisateur après login OK
 - afficher frise histoire OK
 - afficher réponses histoire -> input histoire pr mettre sur les bonnes dates de la frise OK
+- mettre icône maison pr retourner à l'accueil AFFICHAGE OK
 
 ### 02/01/2021
 - faire en sorte que duo maths et histoire s'affichent en mode paysage
@@ -38,7 +39,7 @@
 - afficher notes Fr + Maths + Histoire
 - chrono maths
 - lier pages aux boutons du menu EN COURS
-- mettre icône maison pr retourner à l'accueil AFFICHAGE OK FONCTIONNEL EN COURS
+- mettre icône maison pr retourner à l'accueil FONCTIONNEL EN COURS
 - mettre en place double tap pr mettre réponse sur frise Histoire
 
 ### 03/01/2021
